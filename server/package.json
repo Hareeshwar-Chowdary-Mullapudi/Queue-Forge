@@ -1,0 +1,21 @@
+{
+  "name": "queueforge-server",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "lint": "oxlint ."
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "router": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "oxlint": "^1.79.0"
+  }
+}
