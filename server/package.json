@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
-    "lint": "oxlint ."
+    "lint": "oxlint .",
+    "migrate": "node ../shared/migrate.js"
   },
   "dependencies": {
     "colors": "^1.4.0",
